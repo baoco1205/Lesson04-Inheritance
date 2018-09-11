@@ -1,5 +1,6 @@
 package co.dev;
 
-public class Shape {
+public abstract class Shape {
 	private String name;
+	public abstract double dienTich();
 }
